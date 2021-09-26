@@ -2,7 +2,7 @@
 
 Tourist team [Live Site Link](https://github.com/facebook/create-react-app).
 
-## Telling about this project
+## Telling about this project:
 * This site made for tourist team.
 * You can add member who add your tourist team.
 * You can handle how many people can go on next trip.
