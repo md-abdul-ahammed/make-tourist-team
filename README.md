@@ -1,4 +1,4 @@
-# Make Tourist Team For Next Trip
+# Tourist Team
 
 Tourist team [**Live Site Link**](https://tourist-club.netlify.app/).
 
