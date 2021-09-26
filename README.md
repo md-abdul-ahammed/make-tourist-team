@@ -1,6 +1,6 @@
 # Make Tourist Team For Next Trip
 
-Tourist team [Live Site Link](https://tourist-club.netlify.app/).
+Tourist team [**Live Site Link**](https://tourist-club.netlify.app/).
 
 ## Telling about this project:
 * This site made for **Tourist Team**.
