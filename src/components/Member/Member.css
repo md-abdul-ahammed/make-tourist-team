@@ -1,0 +1,11 @@
+.font-size{
+    font-size: 17px;
+}
+.img-circle{
+    margin-top: 10px;
+    height: 200px;
+    clip-path: circle();
+}
+.card:hover{
+    box-shadow: 0px 0px 30px grey;
+}
