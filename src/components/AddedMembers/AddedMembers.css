@@ -1,10 +1,18 @@
+/* img-size control */
 .img-handle{
     height: 60px;
     width: 100px;
 }
+/* add custom border - shadow and color */
 .added-border{
     border: 2px solid #436efd;
-    background-color: #dadada26;
+    background-color: rgb(1, 1, 24);
+    color: whitesmoke;
     border-radius: 4px;
-    box-shadow: 0px 0px 3px grey;
+    box-shadow: 0px 0px 6px blue;
+}
+/* primary background color */
+.primary-bg-color{
+    background-color: rgb(1, 1, 24);
+    color: whitesmoke;
 }

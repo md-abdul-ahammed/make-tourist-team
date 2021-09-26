@@ -1,6 +1,6 @@
 import React from 'react';
 import './Member.css'
-
+//show each member details here
 const Member = (props) => {
     const { name, balance, email, gender, phone, picture } = props.member;
     return (
@@ -9,33 +9,32 @@ const Member = (props) => {
                 <img src={picture} className="card-img-top img-circle" alt="..." />
                 <div className="card-body">
                     <table className="table fw-bold fs-5">
-                        <tbody className='font-size'>
+                        <tbody className='font-size-handle'>
                             <tr>
-                                <td>Name:</td>
+                                <td className='text-danger'>Name:</td>
                                 <td>{name}</td>
                             </tr>
                             <tr>
-                                <td>Balance:</td>
+                                <td className='text-danger'>Balance:</td>
                                 <td>${balance}</td>
                             </tr>
                             <tr>
-                                <td>Email:</td>
+                                <td className='text-danger'>Email:</td>
                                 <td>{email}</td>
                             </tr>
                             <tr>
-                                <td>Gender:</td>
+                                <td className='text-danger'>Gender:</td>
                                 <td>{gender}</td>
                             </tr>
                             <tr>
-                                <td>Phone:</td>
+                                <td className='text-danger'>Phone:</td>
                                 <td>{phone}</td>
                             </tr>
                         </tbody>
                     </table>
-
-
+                    {/* event-listener connect with button */}
                     <div className="text-center">
-                        <button onClick={() => props.handleMember(props.member)} className="btn btn-outline-primary text-center fw-bold"><i className="fas fa-user-plus"></i> Add Member</button>
+                        <button onClick={() => props.handleMember(props.member)} className="btn btn-primary text-center fw-bold"><i className="fas fa-user-plus"></i> Add Member</button>
                     </div>
 
                 </div>
